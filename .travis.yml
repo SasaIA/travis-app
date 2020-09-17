@@ -6,10 +6,8 @@ sudo: required
 services:
   - docker
 
-before_install:
-
 script:
-    - echo 'foo'
+    - echo 'test'
 
 deploy:
     provider: heroku
